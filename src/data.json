@@ -1,0 +1,82 @@
+[
+    {
+        "id": "0",
+        "name": "Corsair Vengeance RGB Pro 64 GB (8 x 8 GB) DDR4-3600 CL18",
+        "img1": "corsair_vengeance_rgb_1",
+        "img2": "corsair_vengeance_rgb_2",
+        "type": "memory",
+        "price": "605"
+    },
+    {
+        "id": "1",
+        "name": "Corsair Dominator Platinum 64 GB (8 x 8 GB) DDR4-2666 CL15",
+        "img1": "corsair_dominator_1",
+        "img2": "corsair_dominator_2",
+        "type": "memory",
+        "price": "705"
+    },
+    {
+        "id": "2",
+        "name": "G.Skill Trident Z5 RGB 32 GB (2 x 16 GB) DDR5-6000 CL40",
+        "img1": "gskill_1",
+        "img2": "gskill_2",
+        "type": "memory",
+        "price": "807"
+    },
+    {
+        "id": "3",
+        "name": "EVGA GeForce RTX 2080 Ti 11 GB",
+        "img1": "evga_2080ti_1",
+        "img2": "evga_2080ti_2",
+        "type": "gpu",
+        "price": "800"
+    },
+    {
+        "id": "4",
+        "name": "Asus GeForce RTX 3090 24 GB ROG STRIX WHITE",
+        "img1": "asus_3090_1",
+        "img2": "asus_3090_2",
+        "type": "gpu",
+        "price": "1900"
+    },
+    {
+        "id": "5",
+        "name": "Asus GeForce RTX 3070 8 GB",
+        "img1": "asus_3070_1",
+        "img2": "asus_3070_2",
+        "type": "gpu",
+        "price": "660"
+    },
+    {
+        "id": "6",
+        "name": "MSI Radeon RX 6800 XT 16 GB",
+        "img1": "msi_6800_xt_1",
+        "img2": "msi_6800_xt_2",
+        "type": "gpu",
+        "price": "700"
+    },
+    {
+        "id": "7",
+        "name": "AMD Ryzen 5 5600X 3.7 GHz",
+        "img1": "ryzen_5_5600X_1",
+        "img2": "ryzen_5_5600X_2",
+        "type": "cpu",
+        "price": "175"
+    },
+    {
+        "id": "8",
+        "name": "AMD Ryzen 7 5800X 3.8 GHz",
+        "img1": "ryzen_7_5800x_1",
+        "img2": "ryzen_7_5800x_2",
+        "type": "cpu",
+        "price": "275"
+    },
+    {
+        "id": "9",
+        "name": "Intel Core i9-12900K 3.2 GHz",
+        "img1": "intel_i9_12900k_1",
+        "img2": "intel_i9_12900k_2",
+        "type": "cpu",
+        "price": "540"
+    }
+]
