@@ -8,6 +8,7 @@ nav{
     font-size: clamp(40px,8vw,90px);
      display: grid;
     /* height: 10vh; */
+    position: relative;
     color: #f8fafc;
     grid-template-columns:1fr;
     justify-content: space-between;
@@ -20,7 +21,7 @@ main{
 }
 #rest{
     flex-grow: 1;
-    background-color:#cbd5e1;
+    background-color:#f8fafc;
 }
 a:any-link{
     color: #f8fafc;
@@ -33,14 +34,89 @@ a:any-link{
 }
 .wave{
     aspect-ratio:1920/100;
-    /* width:100%; */
-    /* background-repeat: no-repeat;
-    background-position: center; */
+    width:100%;
+     background-repeat: no-repeat;
+    background-position: center;
     background-size: cover;
-    background-image: url("./images/wave-haikei-6.svg");
+    background-image: url("./images/layered-waves-haikei-9.svg");
 }
 .nav-links{
     flex-grow: 1;
     display: flex;
     justify-content: space-between;
+}
+#rest{
+    font-family: 'Passion One', cursive;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+h1{
+    font-size: clamp(50px,8vw,90px);
+}
+#featured{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1rem;
+    justify-content: center;
+    font-family: 'Passion One', cursive;
+    font-size: 20px;
+}
+.card{
+    background-color: #fff;
+    padding: 20px;
+    max-width: 400px;
+    border-radius: 5px;
+    text-align: center;
+    box-shadow: 1px 1px 10px black;
+}
+.bigger{
+    font-size: 25px;
+}
+img{
+    max-width: 250px;
+}
+.shop{
+    margin-top: 0;
+    margin-bottom: 20px;
+}
+#rest a{
+    color: black;
+}
+#items{
+    display: grid;
+    grid-template-columns: repeat(auto-fit,minmax(450px,1fr));
+    gap: 2rem;
+    justify-items:center;
+}
+.container{
+    width: 100vw;
+}
+.shop-nav{
+    font-size: 4rem;
+    display: flex;
+    justify-content: center;
+    gap: 2rem;
+    margin-bottom: 30px;
+}
+.add-to-cart{
+    background-color: #002233;
+    color:#f8fafc;
+    font-family: 'Passion One';
+    font-size: 30px;
+    padding: 10px;
+    border-radius: 5px;
+    border: none;
+    box-shadow:1px 1px 10px black;
+}
+.add-to-cart:hover{
+    background-color: #475569;
+}
+@media (min-width:500px){
+    .card{
+        min-width: 400px;
+    }
+}
+.cart{
+    filter: brightness(0) invert(1);
 }
