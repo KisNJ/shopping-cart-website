@@ -18,6 +18,7 @@ main{
     height: 100vh;
     display: flex;
     flex-direction: column;
+    overflow-x: hidden;
 }
 #rest{
     flex-grow: 1;
