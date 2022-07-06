@@ -43,7 +43,7 @@ a:any-link{
 }
 .nav-links{
     display: flex;
-    gap: 1rem;
+    gap: 2rem;
     justify-content: space-between;
 }
 #rest{
