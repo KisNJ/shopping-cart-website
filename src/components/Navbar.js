@@ -43,7 +43,7 @@ function Navbar() {
         <div id="top">
           <header>
           <NavLink
-              to="/shopping-cart-website"
+              to="/shopping-cart-website/home"
             >
             PC SHOP
           </NavLink>
@@ -51,7 +51,7 @@ function Navbar() {
           <div className="nav-links">
             <NavLink
               style={({ isActive }) => (isActive ? activeStyle : undefined)}
-              to="/shopping-cart-website"
+              to="/shopping-cart-website/home"
             >
               HOME
             </NavLink>
