@@ -25,7 +25,7 @@ function Shop() {
           <Link to='/shop?type=cpu'>CPU</Link>
         </div>
         <div id="items">
-          {displayThese.map(x=><DisplayCard id={x.id} name={x.name} img1={x.img1} img2={x.img2} price={x.price} type={x.type} />)}
+          {displayThese.map(x=><DisplayCard key={x.id} id={x.id} name={x.name} img1={x.img1} img2={x.img2} price={x.price} type={x.type} />)}
         </div>
       </div>
     </div>

@@ -7,7 +7,7 @@ nav{
     font-family: 'Passion One', cursive;
     font-size: clamp(40px,8vw,90px);
      display: grid;
-    /* height: 10vh; */
+
     position: relative;
     color: #f8fafc;
     grid-template-columns:1fr;
@@ -25,9 +25,10 @@ main{
 }
 a:any-link{
     color: #f8fafc;
+    text-decoration:none ;
 }
 #top{
-    padding: 20px 20px 0 20px;
+    padding: 20px 40px 0 20px;
     display: flex;
     justify-content: space-between;
     gap:30%
@@ -43,6 +44,7 @@ a:any-link{
 .nav-links{
     flex-grow: 1;
     display: flex;
+    gap: 1rem;
     justify-content: space-between;
 }
 #rest{
@@ -63,6 +65,8 @@ h1{
     font-size: 20px;
 }
 .card{
+    display: flex;
+    flex-direction: column;
     background-color: #fff;
     padding: 20px;
     max-width: 400px;
@@ -119,4 +123,68 @@ img{
 }
 .cart{
     filter: brightness(0) invert(1);
+}
+input[type="number"]{
+    font-size: 27px;
+    padding: 10px;
+    border-radius: 5px;
+    border: none;
+    box-shadow:1px 1px 10px black;
+    margin-right: 10px;
+}
+.add-to-part{
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+    margin-top: auto;
+    flex-grow: 1;
+}
+.chechkout-card{
+    /* display: flex; */
+    background-color: #fff;
+    font-family: 'Passion One';
+    max-width: 700px;
+    white-space: pre-line;
+    padding: 20px;
+    border-radius: 5px;
+    text-align: center;
+    box-shadow: 1px 1px 10px black;
+}
+.chechkout-card>div:first-child{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.checkout-container{
+    display: grid;
+    justify-content: center;
+    gap:2rem;
+}
+.checkout-img{
+    max-width: 400px;
+}
+.remove{
+    margin-left: 10px;
+    margin-right: 10px;
+    background-color: #991b1b;
+}
+.remove:hover{
+    background-color: #dc2626;
+}
+.cart-container{
+    position: relative;
+}
+.small-count{
+    bottom: 0;
+    right: -20px;
+    font-size: 20px;
+    height: 35px;
+    width: 35px;
+    background-color: #991b1b;
+    border-radius: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+    position: absolute;
 }
