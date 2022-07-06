@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/shopping-cart-website/static/css/main.ebc7d738.css",
-    "main.js": "/shopping-cart-website/static/js/main.0fa149d3.js",
+    "main.css": "/shopping-cart-website/static/css/main.d63a11dd.css",
+    "main.js": "/shopping-cart-website/static/js/main.bbcad33f.js",
     "static/js/787.d6fe38e8.chunk.js": "/shopping-cart-website/static/js/787.d6fe38e8.chunk.js",
     "static/media/corsair_dominator_1.jpg": "/shopping-cart-website/static/media/corsair_dominator_1.82dfe8b6c6491dd2d432.jpg",
     "static/media/corsair_vengeance_rgb_2.jpg": "/shopping-cart-website/static/media/corsair_vengeance_rgb_2.84465fa8646ff587b6a3.jpg",
@@ -13,12 +13,12 @@
     "static/media/layered-waves-haikei-9.svg": "/shopping-cart-website/static/media/layered-waves-haikei-9.aa4d2f77ce3f8c5338c6.svg",
     "index.html": "/shopping-cart-website/index.html",
     "static/media/shopping_cart_checkout.svg": "/shopping-cart-website/static/media/shopping_cart_checkout.63eaeb834c5d54b9b35833dbeb73f3a6.svg",
-    "main.ebc7d738.css.map": "/shopping-cart-website/static/css/main.ebc7d738.css.map",
-    "main.0fa149d3.js.map": "/shopping-cart-website/static/js/main.0fa149d3.js.map",
+    "main.d63a11dd.css.map": "/shopping-cart-website/static/css/main.d63a11dd.css.map",
+    "main.bbcad33f.js.map": "/shopping-cart-website/static/js/main.bbcad33f.js.map",
     "787.d6fe38e8.chunk.js.map": "/shopping-cart-website/static/js/787.d6fe38e8.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.ebc7d738.css",
-    "static/js/main.0fa149d3.js"
+    "static/css/main.d63a11dd.css",
+    "static/js/main.bbcad33f.js"
   ]
 }
