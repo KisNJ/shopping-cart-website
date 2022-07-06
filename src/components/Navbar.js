@@ -1,7 +1,7 @@
 import React, { useState } from "react";
 import { Outlet, NavLink } from "react-router-dom";
 import shp_cart from "../images/shopping_cart_checkout.svg";
-import { matchRoutes, useLocation } from "react-router-dom";
+import {useLocation } from "react-router-dom";
 function Navbar() {
   const [buyingThese, setBuyingThese] = useState([]);
   function addToBuyingThese(item) {
@@ -36,6 +36,14 @@ function Navbar() {
   let activeStyle = {
     textDecoration:"underline"
   };
+  const useIsHomeACtive=()=>{
+    let path=useLocation()
+    if(path.pathname.split('/').length>2){
+      return false
+    }
+    return true
+  }
+  let isHome=useIsHomeACtive()
 
   return (
     <main>
@@ -50,7 +58,7 @@ function Navbar() {
           </header>
           <div className="nav-links">
             <NavLink
-              style={({ isActive }) => (isActive ? activeStyle : undefined)}
+              style={() => (isHome ? activeStyle : undefined)}
               to="/shopping-cart-website"
             >
               HOME

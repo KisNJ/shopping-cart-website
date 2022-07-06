@@ -5,7 +5,6 @@ import DisplayCard from './DisplayCard'
 function Shop() {
   let [searchParams,setSearchParams]=useSearchParams()
   const [displayThese,setDisplayThese]=useState([])
-  //console.log(searchParams.get("type"))
   useEffect(()=>{
     let type=searchParams.get("type")
     if(type==="all"){

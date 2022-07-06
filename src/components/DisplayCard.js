@@ -2,7 +2,7 @@ import React,{useState,useContext} from "react";
 import {useOutletContext} from 'react-router-dom'
 function DisplayCard({id,name,price,img1,img2,type}) {
   const {addToBuyingThese} = useOutletContext();
-  console.log(addToBuyingThese)
+
   const [numberOfItems,setNumberOfItems]=useState(1)
   function changeValue(e){
     if(parseInt(e.target.value)>5){
