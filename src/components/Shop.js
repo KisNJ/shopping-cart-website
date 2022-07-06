@@ -48,10 +48,10 @@ function Shop() {
         <div className='container-shop-nav'>
         <div className="shop-nav">
           <div className='bacgtound-pill' style={getPillStyle()}></div>
-          <Link to='/shop?type=all'>All</Link>
-          <Link to='/shop?type=memory'>RAM</Link>
-          <Link to='/shop?type=gpu'>GPU</Link>
-          <Link to='/shop?type=cpu'>CPU</Link>
+          <Link to='/shopping-cart-website/shop?type=all'>All</Link>
+          <Link to='/shopping-cart-website/shop?type=memory'>RAM</Link>
+          <Link to='/shopping-cart-website/shop?type=gpu'>GPU</Link>
+          <Link to='/shopping-cart-website/shop?type=cpu'>CPU</Link>
         </div>
         </div>
         <div id="items">
