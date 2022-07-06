@@ -38,7 +38,7 @@ function Navbar() {
   };
   const useIsHomeACtive=()=>{
     let path=useLocation()
-    if(path.pathname.split('/').length>2){
+    if(path.pathname.split('/').filter(x=>x!=="").length>1){
       return false
     }
     return true
