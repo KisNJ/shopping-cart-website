@@ -76,6 +76,7 @@ h1{
 }
 .bigger{
     font-size: 25px;
+    font-family: 'Passion One';
 }
 img{
     max-width: 250px;
@@ -102,6 +103,26 @@ img{
     justify-content: center;
     gap: 2rem;
     margin-bottom: 30px;
+    background-color: #e5e5e5;
+    padding: 0 20px 0 20px;
+    border-radius: 16px;
+    position: relative;
+}
+.shop-nav>a{
+    position: relative;
+    z-index: 2;
+}
+.bacgtound-pill{
+    position: absolute;
+    background-color: #d4d4d4;
+    height: 100%;
+    width: 130px;
+    border-radius: 16px;
+    z-index: 1;
+}
+.container-shop-nav{
+    display: flex;
+    justify-content: center;
 }
 .add-to-cart{
     background-color: #002233;
@@ -187,4 +208,20 @@ input[type="number"]{
     align-items: center;
     padding: 10px;
     position: absolute;
+}
+.img-container{
+    max-height: 250px;
+    overflow: hidden;
+}
+.img1{
+    transition: transform 500ms ease-in-out;
+}
+.img2{
+    transition: transform 500ms ease-in-out;
+}
+.img-container:hover .img1{
+    transform: translateY(-100%);
+}
+.img-container:hover .img2{
+    transform: translateY(-110%);
 }

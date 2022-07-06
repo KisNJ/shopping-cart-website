@@ -16,9 +16,9 @@ function DisplayCard({id,name,price,img1,img2,type}) {
   }
   return (
     <div className="card">
-      <div>
-        <img src={require(`../product_imgs/${img1}.jpg`)} alt="" />
-        <img src="" alt="" />
+      <div className="img-container">
+        <img src={require(`../product_imgs/${img1}.jpg`)} className="img1"alt="" />
+        <img src={require(`../product_imgs/${img2}.jpg`)} className="img2" alt="" />
       </div>
       <div className="bigger">{name}</div>
       <div>{type}</div>

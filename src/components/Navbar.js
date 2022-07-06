@@ -41,7 +41,13 @@ function Navbar() {
     <main>
       <nav>
         <div id="top">
-          <header>PC SHOP</header>
+          <header>
+          <NavLink
+              to="/"
+            >
+            PC SHOP
+          </NavLink>
+          </header>
           <div className="nav-links">
             <NavLink
               style={({ isActive }) => (isActive ? activeStyle : undefined)}

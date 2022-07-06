@@ -25,13 +25,10 @@ function CheckoutCard({ id, name, price, img1, img2, type, quantity }) {
   return (
     <div className="chechkout-card">
       <div>
-        <div>
-          <img
-            className="checkout-img"
-            src={require(`../product_imgs/${img1}.jpg`)}
-            alt=""
-          />
-        </div>
+      <div className="img-container">
+        <img src={require(`../product_imgs/${img1}.jpg`)} className="img1"alt="" />
+        <img src={require(`../product_imgs/${img2}.jpg`)} className="img2" alt="" />
+      </div>
         <div>
           <div className="bigger">{name}</div>
           <div className="bigger">{type}</div>
