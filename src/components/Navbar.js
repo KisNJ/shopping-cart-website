@@ -43,6 +43,10 @@ function Navbar() {
     }
     return true
   }
+  function purchase(){
+    alert("Thanks for your purchase!")
+    setBuyingThese([])
+  }
   let isHome=useIsHomeACtive()
 
   return (
@@ -58,12 +62,18 @@ function Navbar() {
           </header>
           <div className="nav-links">
             <NavLink
-              style={() => (isHome ? activeStyle : undefined)}
+            className={() => (isHome ? "activeStyle" : "")}
               to="/shopping-cart-website"
             >
+              <div className="hover-underline">
               HOME
+
+              </div>
             </NavLink>
-            <NavLink to="shop?type=all"  style={({ isActive }) => (isActive ? activeStyle : undefined)}>SHOP</NavLink>
+            <NavLink to="shop?type=all"  className={({ isActive }) => (isActive ? "activeStyle" : "")}> <div className="hover-underline">
+              SHOP
+
+              </div></NavLink>
             <NavLink to="checkout">
               <div className="cart-container">
                 <img className="cart" src={shp_cart} alt="" />
@@ -75,7 +85,7 @@ function Navbar() {
         <div className="wave"></div>
       </nav>
       <Outlet
-        context={{ addToBuyingThese, buyingThese, removeFromBuyingThese }}
+        context={{ addToBuyingThese, buyingThese, removeFromBuyingThese,purchase }}
       />
     </main>
   );
